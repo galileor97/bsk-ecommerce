@@ -30,7 +30,7 @@ const HomePage = () => {
 
       let url = `/pub/products?page[number]=${currentPage}&page[size]12=${limitPage}&sort=${sortOption}`;
       if (searchTerm) {
-        url += `?filter=${searchTerm}`;
+        url = `/pub/products/?filter=${searchTerm}`;
       }
       let { data } = await ProductRequest({
         url: url,
