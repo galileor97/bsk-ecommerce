@@ -65,7 +65,7 @@ const HomePage = () => {
               <Dropdown.Item onClick={() => handleSort('-name')}>Name (Z-A)</Dropdown.Item>
             </Dropdown>
           </div>
-          <h1 className="text-black font-graphik font-extrabold text-2xl">BRAND NEW COLLECTIONS</h1>x
+          <h1 className="text-black font-graphik font-extrabold text-2xl">BRAND NEW COLLECTIONS</h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {products.data &&
