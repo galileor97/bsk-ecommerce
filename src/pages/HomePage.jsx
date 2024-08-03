@@ -56,7 +56,7 @@ const HomePage = () => {
         <div className="flex mb-6 justify-between">
           {/* SORT */}
           <div className="text-black text-2xl font-graphikMedium">
-            <Dropdown label="Sort" inline>
+            <Dropdown label="SORT" inline>
               <Dropdown.Item onClick={() => handleSort('-updatedAt')}>Latest</Dropdown.Item>
               <Dropdown.Item onClick={() => handleSort('updatedAt')}>Oldest</Dropdown.Item>
               <Dropdown.Item onClick={() => handleSort('price')}>Low to High</Dropdown.Item>
